@@ -84,7 +84,12 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Describe component state.
 
-  
+  An object that holds a piece of its component's information that can be updated to determine how that component will render and behave.
 
 1. Describe props.
+
+  A keyword in React that allows data to be passed between components
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+  A side effect is anything that effects something outside of the scope of the function being executed. Effects can be synced in a component by using the Effect hook. This allows a developer to specify when to sync an effect with specific state/props changes.
